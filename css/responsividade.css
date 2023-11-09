@@ -1,0 +1,759 @@
+@media (min-width: 220px) and (max-width: 419px) {
+    body {
+        max-width: 419px;
+        min-width: 220px;
+        height: 120vh;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        align-items: center;
+        overflow: scroll;
+    }
+
+    .cabecalho {
+        width: 100%;
+        height: 5%;
+        margin: 0;
+    }
+
+    #menu-responsivo {
+        display: block;
+        z-index: 9999;
+    }
+
+    .open-menu {
+        display: none;
+        z-index: 999;
+        position: absolute;
+        top: 0%;
+        left: 50%;
+        background: var(--primary-Almost-White);
+        box-shadow: 1px 1px 1000px 400px var(--thrird-Almost-Black);
+        width: 60%;
+        height: 100%;
+    }
+
+    .closed-menu {
+        display: block;
+    }
+
+    .menu-mobile {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        padding: 80px 0 0 80px;
+        width: auto;
+        line-height: 40px;
+    }
+
+    .menu-mobile ul button {
+        border: none;
+        background: transparent;
+        color: var(--second-Medium-Gray);
+        font-size: 1.2rem;
+    }
+
+    .menu-mobile .feat,
+    .comp,
+    .about {
+        cursor: pointer;
+    }
+
+    .L-R {
+        z-index: 999;
+        position: absolute;
+        top: 80%;
+        left: 20%;
+        width: auto;
+        height: auto;
+    }
+
+    .log {
+        cursor: pointer;
+        color: var(--second-Medium-Gray);
+        padding: 10px;
+    }
+
+    .log:hover {
+        color: var(--thrird-Almost-Black);
+    }
+
+    .reg {
+        cursor: pointer;
+        color: var(--second-Medium-Gray);
+        border: 1px solid var(--second-Medium-Gray);
+        padding: 10px;
+        border-radius: 10px;
+    }
+
+    .reg:hover {
+        color: var(--thrird-Almost-Black);
+        border: 1px solid var(--thrird-Almost-Black);
+    }
+
+    .menu-mobile ul button img {
+        margin: 0 0 3px 0;
+    }
+
+    .show-features {
+        list-style: none;
+        display: none;
+        padding: 0 0 0 10px;
+        width: auto;
+        color: var(--second-Medium-Gray);
+    }
+
+    .show-company {
+        list-style: none;
+        display: none;
+        padding: 0 0 0 10px;
+        width: auto;
+        color: var(--second-Medium-Gray);
+    }
+
+    #menu-responsivo img {
+        padding-right: 40px;
+    }
+
+    .logo img {
+        padding-left: 40px;
+    }
+
+    .sub-menu {
+        display: none;
+    }
+
+    .btn-RL {
+        display: none;
+    }
+
+    .geral {
+        width: 90%;
+        height: 90%;
+        margin: 0;
+        padding: 0;
+        flex-direction: column-reverse;
+        justify-content: space-around;
+        align-items: center;
+        gap: 30px;
+    }
+
+    .imagem {
+        max-width: 850px;
+        min-width: 450px;
+        height: 50%;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .img-conteudo {
+        display: none;
+    }
+
+    .img-mobile {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 90% ;
+        height: 90% ;
+        margin: auto 40px;
+    }
+
+    .conteudo {
+       width: auto;
+       height: 40%;
+       flex-direction: column;
+       justify-content: space-between;
+       align-items: center;
+    }
+
+    .titulo {
+        width: auto;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: auto;
+        margin: 0;
+        padding: 0;
+    }
+
+    .titulo h1 {
+        justify-content: center;
+        align-items: center;
+        font-size: 2rem;
+        margin: 0;
+        padding: 0;
+    }
+
+    .text {
+        width: auto;
+        height: auto;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin: 0;
+        padding: 0;
+    }
+
+    .text p {
+        justify-content: center;
+        text-align: center;
+        font-size: 15px;
+        margin: 0;
+        padding: 0;
+    }
+
+    .btn-do-conteudo {
+        width: auto;
+        height: auto;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin: 0;
+        padding: 0;
+    }
+
+    .btn-conteudo {
+        justify-content: center;
+        align-items: center;
+        font-size: 15px;
+        padding: 12px;
+        margin: 0;
+    }
+
+    .logos {
+        width: auto;
+        height: auto;
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        justify-content: center;
+        align-items: center;
+        margin: 0;
+        padding: 0;
+    }
+
+    .lgs {
+        align-items: center;
+        margin: 0;
+        padding: 0;
+    }
+
+    .attribution {
+        width: auto;
+        height: 5%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin: 0;
+        padding: 0;
+    }
+}
+
+@media (min-width: 420px) and (max-width: 879px) {
+    body {
+        max-width: 879px;
+        min-width: 420px;
+        height: 120vh;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        align-items: center;
+        overflow: scroll;
+    }
+
+    .cabecalho {
+        width: 100%;
+        height: 5%;
+        margin: 0;
+    }
+
+    #menu-responsivo {
+        display: block;
+        z-index: 9999;
+    }
+
+    .open-menu {
+        display: none;
+        z-index: 999;
+        position: absolute;
+        top: 0%;
+        left: 50%;
+        background: var(--primary-Almost-White);
+        box-shadow: 1px 1px 1000px 400px var(--thrird-Almost-Black);
+        width: 60%;
+        height: 100%;
+    }
+
+    .closed-menu {
+        display: block;
+    }
+
+    .menu-mobile {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        padding: 80px 0 0 80px;
+        width: auto;
+        line-height: 40px;
+    }
+
+    .menu-mobile ul button {
+        border: none;
+        background: transparent;
+        color: var(--second-Medium-Gray);
+        font-size: 1.2rem;
+    }
+
+    .menu-mobile .feat,
+    .comp,
+    .about {
+        cursor: pointer;
+    }
+
+    .menu-mobile ul button img {
+        margin: 0 0 3px 0;
+    }
+
+    .L-R {
+        z-index: 999;
+        position: absolute;
+        top: 80%;
+        left: 20%;
+        width: auto;
+        height: auto;
+    }
+
+    .log {
+        cursor: pointer;
+        color: var(--second-Medium-Gray);
+        padding: 10px;
+    }
+
+    .log:hover {
+        color: var(--thrird-Almost-Black);
+    }
+
+    .reg {
+        cursor: pointer;
+        color: var(--second-Medium-Gray);
+        border: 1px solid var(--second-Medium-Gray);
+        padding: 10px;
+        border-radius: 10px;
+    }
+
+    .reg:hover {
+        color: var(--thrird-Almost-Black);
+        border: 1px solid var(--thrird-Almost-Black);
+    }
+
+    .show-features {
+        list-style: none;
+        display: none;
+        padding: 0 0 0 10px;
+        width: auto;
+        color: var(--second-Medium-Gray);
+    }
+
+    .show-company {
+        list-style: none;
+        display: none;
+        padding: 0 0 0 10px;
+        width: auto;
+        color: var(--second-Medium-Gray);
+    }
+
+    #menu-responsivo img {
+        padding-right: 40px;
+    }
+
+    .logo img {
+        padding-left: 40px;
+    }
+
+    .sub-menu {
+        display: none;
+    }
+
+    .btn-RL {
+        display: none;
+    }
+
+    .geral {
+        width: 90%;
+        height: 90%;
+        margin: 0;
+        padding: 0;
+        flex-direction: column-reverse;
+        justify-content: space-around;
+        align-items: center;
+        gap: 30px;
+    }
+
+    .imagem {
+        max-width: 850px;
+        min-width: 450px;
+        height: 50%;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .img-conteudo {
+        display: none;
+    }
+
+    .img-mobile {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 90% ;
+        height: 90% ;
+        margin: auto 40px;
+    }
+
+    .conteudo {
+       width: auto;
+       height: 40%;
+       flex-direction: column;
+       justify-content: space-between;
+       align-items: center;
+    }
+
+    .titulo {
+        width: auto;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: auto;
+        margin: 0;
+        padding: 0;
+    }
+
+    .titulo h1 {
+        justify-content: center;
+        align-items: center;
+        font-size: 2rem;
+        margin: 0;
+        padding: 0;
+    }
+
+    .text {
+        width: auto;
+        height: auto;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin: 0;
+        padding: 0;
+    }
+
+    .text p {
+        justify-content: center;
+        text-align: center;
+        font-size: 15px;
+        margin: 0;
+        padding: 0;
+    }
+
+    .btn-do-conteudo {
+        width: auto;
+        height: auto;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin: 0;
+        padding: 0;
+    }
+
+    .btn-conteudo {
+        justify-content: center;
+        align-items: center;
+        font-size: 15px;
+        padding: 12px;
+        margin: 0;
+    }
+
+    .logos {
+        width: auto;
+        height: auto;
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        justify-content: center;
+        align-items: center;
+        margin: 0;
+        padding: 0;
+    }
+
+    .lgs {
+        align-items: center;
+        margin: 0;
+        padding: 0;
+    }
+
+    .attribution {
+        width: auto;
+        height: 5%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin: 0;
+        padding: 0;
+    }
+}
+
+
+@media (min-width: 880px) and (max-width: 1000px) {
+    body {
+        max-width: 1000px;
+        min-width: 880px;
+        height: 200vh;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        align-items: center;
+        overflow: scroll;
+    }
+
+    .cabecalho {
+        width: auto;
+        height: 5%;
+        margin: 0 40px;
+        
+    }
+
+    .sub-menu button {
+        font-size: 15px;
+        margin: 0;
+        padding: 0;
+        gap: 0;
+    }
+
+    .btn-RL {
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+        margin: 0;
+        padding: 0;
+    }
+
+    .btn-RL button {
+        font-size: 15px;
+        margin: 0 0 0 10px;
+    }
+
+    .lgn {
+        margin: 0;
+        padding: 0 0 0 50px;
+    }
+
+    .rgt {
+        margin: 0;
+        padding: 13px;
+    }
+    
+    .sub-menu-features div {
+        width: 140px;
+    }
+
+    .sub-menu-company div {
+        width: 110px;
+    }
+
+    .geral {
+        width: 90%;
+        height: 90%;
+        margin: 0;
+        padding: 0;
+        flex-direction: column-reverse;
+        justify-content: space-around;
+        align-items: center;
+        gap: 30px;
+    }
+
+    .imagem {
+        width: auto;
+        height: 50%;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .conteudo {
+       width: auto;
+       height: 50%;
+       flex-direction: column;
+       justify-content: space-between;
+       align-items: center;
+    }
+
+    .titulo {
+        width: auto;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: auto;
+        margin: 0;
+        padding: 0;
+    }
+
+    .titulo h1 {
+        justify-content: center;
+        align-items: center;
+        font-size: 2.5rem;
+        margin: 0;
+        padding: 0;
+    }
+
+    .text {
+        width: auto;
+        height: auto;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin: 0;
+        padding: 0;
+    }
+
+    .text p {
+        justify-content: center;
+        text-align: center;
+        font-size: 18px;
+        margin: 0;
+        padding: 0;
+    }
+
+    .btn-do-conteudo {
+        width: auto;
+        height: auto;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin: 0;
+        padding: 0;
+    }
+
+    .btn-conteudo {
+        justify-content: center;
+        align-items: center;
+        padding: 15px;
+        margin: 0;
+    }
+
+    .logos {
+        width: auto;
+        height: auto;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin: 0;
+        padding: 0;
+    }
+
+    .lgs {
+        align-items: center;
+        margin: 0;
+        padding: 0;
+    }
+
+    .attribution {
+        width: auto;
+        height: 5%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin: 0;
+        padding: 0;
+    }
+}
+
+
+
+
+@media (min-width: 1001px) and (max-width: 1400px) {
+    body {
+        min-width: 1001px;
+        max-width: 1400px;
+        height: 100vh;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        overflow: hidden;
+    }
+
+    .cabecalho {
+        justify-content: center;
+        align-items: center;
+        width: auto;
+        height: 10vh;
+        margin: 0;
+        padding: 0;
+    }
+
+    .btn-RL {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-left: 50px;
+    }
+
+    .logo {
+        margin: auto 20px;
+        padding: 0;
+    }
+
+    .geral {
+        justify-content: center;
+        align-items: center;
+        width: 90%;
+        height: 80vh;
+        margin: auto 50px;
+        padding: 0;
+    }
+
+    .sub-menu {
+        margin: auto 20px;
+    }
+
+    .conteudo {
+        width: 50%;
+        height: 70vh;
+    }
+
+    .imagem {
+        width: 50%;
+    }
+
+    .img-conteudo {
+        width: auto;
+        height: 70vh;
+    }
+
+    .conteudo h1 {
+        font-size: 3rem;
+        margin-top: -50px;
+        margin-bottom: -100px;
+        max-width: 500px;
+        width: auto;
+    }
+
+    .conteudo p {
+        margin-bottom: -50px;
+    }
+
+    .btn-conteudo {
+        margin-bottom: -50px;
+    }
+
+    .logos {
+        display: grid;
+        grid-template-columns: repeat(2, 2fr);
+        width: 50%;
+        margin-top: -50px;
+        padding: 0 20px;
+    }
+
+    .attribution {
+        width: 90%;
+        height: 10vh;
+        margin: 20px auto;
+    }
+}

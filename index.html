@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <!-- displays site properly based on user's device -->
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+
+  <title>Frontend Mentor | Intro section with dropdown navigation</title>
+  <link rel="stylesheet" href="./css/style.css">
+  <link rel="stylesheet" href="./css/responsividade.css">
+
+</head>
+
+<body>
+  <header class="cabecalho">
+    <div class="menu">
+      <div class="logo"><img src="./images/logo.svg" alt="Logo."></div>
+      <div class="sub-menu">
+        <div>
+          <button id="btn-features" onclick="abrirFeatures()">Features <img id="arrow-down-left"
+              src="./images/icon-arrow-down.svg"></button>
+          <ul class="sub-menu-features">
+            <div>
+              <li class="list1"><img src="./images/icon-todo.svg"> Todo List</li>
+              <li class="list2"><img src="./images/icon-calendar.svg"> Calendar</li>
+              <li class="list3"><img src="./images/icon-reminders.svg"> Reminders</li>
+              <li class="list4"><img src="./images/icon-planning.svg"> Planing</li>
+            </div>
+          </ul>
+        </div>
+        <div>
+          <button id="btn-company" onclick="abrirCompany()">Company <img id="arrow-down-right"
+              src="./images/icon-arrow-down.svg"></button>
+          <ul class="sub-menu-company">
+            <div>
+              <li class="list5">History</li>
+              <li class="list6">Our Team</li>
+              <li class="list7">Blog</li>
+            </div>
+          </ul>
+        </div>
+        <button class="carrers">Careers</button>
+        <button class="about">About</button>
+      </div>
+    </div>
+    <div class="btn-RL">
+      <button class="lgn">Login</button>
+      <button class="rgt">Register</button>
+    </div>
+    <div id="menu-responsivo" onclick="menuResponsivo()">
+      <img class="icon" src="./images/icon-menu.svg">
+    </div>
+  </header>
+  <div class="open-menu">
+    <div class="menu-mobile">
+      <ul><button class="feat" onclick="showMobileFeatures()">Features <img class="arrow-left" src="./images/icon-arrow-down.svg"></button>
+        <div class="show-features">
+          <li><img src="./images/icon-todo.svg"> Todo List</li>
+          <li><img src="./images/icon-calendar.svg"> Calendar</li>
+          <li><img src="./images/icon-reminders.svg"> Reminders</li>
+          <li><img src="./images/icon-planning.svg"> Planning</li>
+        </div>
+      </ul>
+      <ul><button class="comp" onclick="showMobileCompany()">Company <img class="arrow-right" src="./images/icon-arrow-down.svg"></button>
+        <div class="show-company">
+          <li>History</li>
+          <li>Our Team</li>
+          <li>Blog</li>
+        </div>
+      </ul>
+      <ul><button>Carrers</button></ul>
+      <ul><button class="about">About</button></ul>
+      <div class="L-R">
+        <ul><a class="log">Login</a></ul>
+        <ul><a class="reg">Register</a></ul>
+      </div>
+    </div>
+  </div>
+  <div class="geral">
+    <div class="conteudo">
+      <div class="titulo">
+        <h1>Make remote work</h1>
+      </div>
+      <div class="text">
+        <p>Get your team in sync, no matter your location.<br>Streamline processes,
+          create team rituals, and<br> watch productivity soar.
+        </p>
+      </div>
+      <div class="btn-do-conteudo">
+        <button class="btn-conteudo">Learn more</button>
+      </div>
+      <div class="logos">
+        <img class="lgs" src="./images/client-databiz.svg" alt="Logo">
+        <img class="lgs" src="./images/client-audiophile.svg" alt="Logo">
+        <img class="lgs" src="./images/client-meet.svg" alt="Logo">
+        <img class="lgs" src="./images/client-maker.svg" alt="Logo">
+      </div>
+    </div>
+    <div class="imagem">
+      <img class="img-conteudo" src="./images/image-hero-desktop.png" alt="Um homem com notbook nas maõs.">
+      <img class="img-mobile" src="./images/image-hero-mobile.png" alt="Um homem com notebook na mão.">
+    </div>
+  </div>
+
+
+  <div class="attribution">
+    Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>.
+    Coded by <a href="#">Silas Moreti</a>.
+  </div>
+
+
+  <script src="./script/script.js"></script>
+</body>
+
+</html>
